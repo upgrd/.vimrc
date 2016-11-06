@@ -69,4 +69,3 @@ filetype indent on
 nmap <S-Enter> O<Esc>j
 nmap <CR> o<Esc>k
 
-"test test for git, you git!
