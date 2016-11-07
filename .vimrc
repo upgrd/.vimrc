@@ -58,6 +58,9 @@ set number
 
 syntax on
 
+"____enable airline (solution from https://github.com/vim-airline/vim-airline/issues/130)
+set laststatus=2
+
 "____ft enabled____
 
 :filetype on
