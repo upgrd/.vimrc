@@ -24,6 +24,9 @@ Plugin 'honza/vim-snippets'
 "easymotion from https://github.com/easymotion/vim-easymotion
 Plugin 'easymotion/vim-easymotion'
 
+"_____vim bufferline (https://github.com/bling/vim-bufferline)
+Plugin 'bling/vim-bufferline'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
