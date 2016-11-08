@@ -30,6 +30,9 @@ Plugin 'bling/vim-bufferline'
 "syntastic from https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 
+"youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
@@ -47,6 +50,7 @@ colorscheme monokai
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
+
 set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
