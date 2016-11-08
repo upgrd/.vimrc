@@ -33,6 +33,9 @@ Plugin 'vim-syntastic/syntastic'
 "youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
 Plugin 'Valloric/YouCompleteMe'
 
+"rdf syntax from https://github.com/niklasl/vim-rdf
+Plugin 'niklasl/vim-rdf'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
