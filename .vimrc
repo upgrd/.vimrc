@@ -36,6 +36,9 @@ Plugin 'Valloric/YouCompleteMe'
 "rdf syntax from https://github.com/niklasl/vim-rdf
 Plugin 'niklasl/vim-rdf'
 
+"window swap from https://github.com/wesQ3/vim-windowswap
+Plugin 'wesQ3/vim-windowswap'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
