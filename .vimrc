@@ -27,6 +27,9 @@ Plugin 'easymotion/vim-easymotion'
 "_____vim bufferline (https://github.com/bling/vim-bufferline)
 Plugin 'bling/vim-bufferline'
 
+"syntastic from https://github.com/vim-syntastic/syntastic
+Plugin 'vim-syntastic/syntastic'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
@@ -38,10 +41,21 @@ set shiftwidth=4
 set autoindent
 set textwidth=80
 
-colorscheme torte
+colorscheme monokai 
 
+"basic setup for syntastic from https://github.com/vim-syntastic/syntastic#settings
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 "____wordprocessor mode____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
+
 
 func! WordProcessorMode()
  setlocal textwidth=80
