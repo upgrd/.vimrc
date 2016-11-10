@@ -1,4 +1,4 @@
 #my linux dotfiles
-#.vimrc
-#.xsession
-#.Xdefaults
+.vimrc
+.xsession
+.Xdefaults
