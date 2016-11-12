@@ -77,8 +77,10 @@ endfu
 com! WP call WordProcessorMode()
 
 "____hybrid numbering mode____ (http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
-
-set relativenumber
+" *** DEPRECATED *** use RltvNumber instead (= rel + abs numbers!) (http://www.vim.org/scripts/script.php?script_id=2351)
+"set relativenumber AND absolute number!
+autocmd VimEnter * RltvNmbr
+" solution for calling Rltv after .vimrc has loaded: http://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
 set number
 
 "syntax always on
