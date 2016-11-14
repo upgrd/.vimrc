@@ -96,8 +96,9 @@ set laststatus=2
 filetype plugin on
 filetype indent on
 
- "____new line mapping____(http://vim.wikia.com/wiki/Insert_newline_without_entering_insert_mode)
- 
-nmap <S-Enter> O<Esc>j
-nmap <CR> o<Esc>k
+"____mappings____
 
+ "____new line mapping____(http://vim.wikia.com/wiki/Insert_newline_without_entering_insert_mode)
+
+nmap <Enter> o<Esc>
+nmap <A-Enter> O<Esc>
