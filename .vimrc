@@ -101,4 +101,6 @@ filetype indent on
  "____new line mapping____(http://vim.wikia.com/wiki/Insert_newline_without_entering_insert_mode)
 
 nmap <Enter> o<Esc>
-nmap <A-Enter> O<Esc>
+nmap <S-Enter> O<Esc>
+nmap <C-Enter> o<Esc>k
+nmap <C-S-Enter< O<Esc>j
