@@ -106,7 +106,7 @@ alias wakeup='sudo etherwake 2c:27:d7:25:5d:dc'
 alias suspend='/usr/sbin/pm-suspend'
 
 #upgrd tmux_script
-source ./tmux_completion.sh
+#source ./tmux_completion.sh
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
