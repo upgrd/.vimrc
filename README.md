@@ -2,3 +2,5 @@
 .vimrc
 .xsession
 .Xdefaults
+.bashrc
+.tmux.conf
