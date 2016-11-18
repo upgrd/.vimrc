@@ -105,8 +105,8 @@ alias vievpn='f5fpc -s -t vpn.univie.ac.at:8443 -u a0909268 -d /etc/ssl/certs/
 alias wakeup='sudo etherwake 2c:27:d7:25:5d:dc'
 alias suspend='/usr/sbin/pm-suspend'
 
-#upgrd tmux_script
-#source ./tmux_completion.sh
+#upgrd tmux_script (https://github.com/srsudar/tmux-completion)
+source ./tmux-completion/tmux 
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
