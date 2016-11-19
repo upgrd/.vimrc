@@ -42,6 +42,9 @@ Plugin 'wesQ3/vim-windowswap'
 "emmet-like plugin from https://github.com/mattn/emmet-vim
 Plugin 'mattn/emmet-vim'
 
+"fugitive git wrapper
+Plugin 'tpope/vim-fugitive'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
@@ -53,6 +56,8 @@ set shiftwidth=4
 set autoindent
 "set textwidth=80
 set clipboard=unnamed
+"activate omnifunc
+set omnifunc=syntaxcomplete#Complete
 
 colorscheme monokai 
 
