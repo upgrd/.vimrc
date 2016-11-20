@@ -51,6 +51,9 @@ Plugin 'kien/ctrlp.vim'
 "multi curser from https://github.com/terryma/vim-multiple-cursors
 Plugin 'terryma/vim-multiple-cursors'
 
+"vimtext from https://github.com/lervag/vimtex
+Plugin 'lervag/vimtex'
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
