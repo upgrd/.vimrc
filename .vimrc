@@ -54,6 +54,10 @@ Plugin 'terryma/vim-multiple-cursors'
 "vimtext from https://github.com/lervag/vimtex
 Plugin 'lervag/vimtex'
 
+"js from 
+Plugin 'pangloss/vim-javascript'
+
+
 call vundle#end()            " required
 
 "____basic setup_____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
