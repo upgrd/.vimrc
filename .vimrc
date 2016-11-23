@@ -1,3 +1,4 @@
+
 "____vundle section____ 
 
 set nocompatible              " be iMproved, required
@@ -12,14 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'othree/xml.vim'
 Plugin 'scrooloose/nerdtree'
-
-"snipmate from https://github.com/garbas/vim-snipmate
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
-
-  " Optional:
-Plugin 'honza/vim-snippets'
 
 "easymotion from https://github.com/easymotion/vim-easymotion
 Plugin 'easymotion/vim-easymotion'
@@ -56,6 +49,22 @@ Plugin 'lervag/vimtex'
 
 "js from 
 Plugin 'pangloss/vim-javascript'
+
+"ultisnips block from https://github.com/SirVer/ultisnips
+
+" Track the engine.
+Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 
 call vundle#end()            " required
