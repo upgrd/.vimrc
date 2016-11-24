@@ -23,8 +23,6 @@ Plugin 'bling/vim-bufferline'
 "syntastic from https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 
-"youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
-Plugin 'Valloric/YouCompleteMe'
 
 "rdf syntax from https://github.com/niklasl/vim-rdf
 Plugin 'niklasl/vim-rdf'
@@ -50,7 +48,7 @@ Plugin 'lervag/vimtex'
 "js from 
 Plugin 'pangloss/vim-javascript'
 
-"ultisnips block from https://github.com/SirVer/ultisnips
+" ***ultisnips block from https://github.com/SirVer/ultisnips
 
 " Track the engine.
 Plugin 'SirVer/ultisnips'
@@ -58,14 +56,18 @@ Plugin 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
+Plugin 'Valloric/YouCompleteMe'
 
-" If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+" *** ultisnips + YCM via supertab! from  http://chauncey.io/ultisnips-youcompleteme-now-if-i-can-just-get-you-two-to-cooperate/
+"Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs (:help ins-completion).
+Plugin 'ervandew/supertab'
 
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+ 
 
 call vundle#end()            " required
 
@@ -94,6 +96,15 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" *** ultisnips + ycm settings
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+"let g:UltiSnipsEditSplit="vertical"
 
 "____wordprocessor mode____ (http://www.makeuseof.com/tag/5-things-need-put-vim-config-file/)
 
