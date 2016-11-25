@@ -48,6 +48,9 @@ Plugin 'lervag/vimtex'
 "js from 
 Plugin 'pangloss/vim-javascript'
 
+"vim surround
+Plugin 'tpope/vim-surround'
+
 " ***ultisnips block from https://github.com/SirVer/ultisnips
 
 " Track the engine.
