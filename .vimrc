@@ -68,6 +68,11 @@ let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-n>'
  
+"Set ultisnips triggers
+" from http://stackoverflow.com/questions/19039443/vim-ultisnips-how-do-i-move-to-the-next-placeholder-or-tabstop
+let g:UltiSnipsExpandTrigger="<tab>"                                            
+let g:UltiSnipsJumpForwardTrigger="<tab>"                                       
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>" 
 
 call vundle#end()            " required
 
