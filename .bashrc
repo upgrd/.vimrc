@@ -129,3 +129,4 @@ if ! shopt -oq posix; then
 fi
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
+
