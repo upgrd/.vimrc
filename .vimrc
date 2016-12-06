@@ -51,6 +51,9 @@ Plugin 'pangloss/vim-javascript'
 "vim surround
 Plugin 'tpope/vim-surround'
 
+"tern js for js autocompletion from http://tilvim.com/2013/08/21/js-autocomplete.html
+Plugin 'ternjs/tern_for_vim'
+
 " ***ultisnips block from https://github.com/SirVer/ultisnips
 
 " Track the engine.
@@ -91,7 +94,9 @@ set clipboard=unnamed
 "activate omnifunc
 set omnifunc=syntaxcomplete#Complete
 
-colorscheme monokai 
+"colorscheme molokai 
+autocmd VimEnter * colorscheme monokai 
+
 
 "basic setup for syntastic from https://github.com/vim-syntastic/syntastic#settings
 
