@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 amixer set Master unmute &
 setxkbmap us &
 wmname LG3D &
@@ -7,7 +7,7 @@ xrandr --output eDP1 --mode 1366x768 &
 sleep 2; feh --bg-scale spock-bg.jpg &
 
 if xrandr --output HDMI1 && echo $? = 0 ; then
-xrandr --output HDMI1 --mode 1920x1080 --right-of eDP1
+xrandr --output HDMI1 --mode 1920x1080 --above eDP1
 fi
 
 

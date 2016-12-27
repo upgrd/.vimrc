@@ -22,6 +22,8 @@ Plugin 'bling/vim-bufferline'
 
 "syntastic from https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
+"set syntastic to python 3
+let g:syntastic_python_python_exec = '/path/to/python3'
 
 
 "rdf syntax from https://github.com/niklasl/vim-rdf
@@ -68,6 +70,12 @@ Plugin 'Valloric/YouCompleteMe'
 " *** ultisnips + YCM via supertab! from  http://chauncey.io/ultisnips-youcompleteme-now-if-i-can-just-get-you-two-to-cooperate/
 "Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs (:help ins-completion).
 Plugin 'ervandew/supertab'
+
+"autopairs plugin
+Plugin 'jiangmiao/auto-pairs'
+
+"taglist
+Plugin 'vim-scripts/taglist.vim'
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
@@ -159,3 +167,4 @@ nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-Enter> o<Esc>k
 nmap <C-S-Enter< O<Esc>j
+
