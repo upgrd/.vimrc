@@ -102,6 +102,9 @@ set clipboard=unnamed
 "activate omnifunc
 set omnifunc=syntaxcomplete#Complete
 
+"set hl search from http://vim.wikia.com/wiki/Highlight_all_search_pattern_matches
+set hlsearch
+
 "colorscheme molokai 
 autocmd VimEnter * colorscheme monokai 
 
