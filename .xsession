@@ -4,7 +4,7 @@ setxkbmap us &
 wmname LG3D &
 setxkbmap us &
 xrandr --output eDP1 --mode 1366x768 &
-sleep 2; feh --bg-scale spock-bg.jpg &
+sleep 2; feh --bg-scale Pictures/borg.jpg &
 
 if xrandr --output HDMI1 && echo $? = 0 ; then
 xrandr --output HDMI1 --mode 1920x1080 --above eDP1
