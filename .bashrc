@@ -130,3 +130,5 @@ fi
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
