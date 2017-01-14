@@ -77,6 +77,12 @@ Plugin 'jiangmiao/auto-pairs'
 "taglist
 Plugin 'vim-scripts/taglist.vim'
 
+" nerdcommenter
+Plugin 'scrooloose/nerdcommenter'
+
+" fzf for vim (fuck you ctrl-p! :D)
+Plugin 'https://github.com/junegunn/fzf'
+
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -97,7 +103,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-"set textwidth=80
+"set textwidth=60
 set clipboard=unnamed
 "activate omnifunc
 set omnifunc=syntaxcomplete#Complete
