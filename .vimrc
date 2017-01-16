@@ -83,6 +83,9 @@ Plugin 'scrooloose/nerdcommenter'
 " fzf for vim (fuck you ctrl-p! :D)
 Plugin 'https://github.com/junegunn/fzf'
 
+" tagbar; requires exuberant ctags! (av. in linux repos)
+Plugin 'majutsushi/tagbar'
+
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
