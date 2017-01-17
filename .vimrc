@@ -117,6 +117,11 @@ set hlsearch
 " set cursorline toggle map
 nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 
+" nice mapping for running python code from vim (http://stackoverflow.com/questions/18948491/running-python-code-in-vim)
+"nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+:map <F9> :exec ':w !python3 %'<cr>
+
+
 "colorscheme molokai 
 autocmd VimEnter * colorscheme monokai 
 
