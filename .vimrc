@@ -1,4 +1,5 @@
 
+
 "____vundle section____ 
 
 set nocompatible              " be iMproved, required
@@ -86,6 +87,9 @@ Plugin 'https://github.com/junegunn/fzf'
 " tagbar; requires exuberant ctags! (av. in linux repos)
 Plugin 'majutsushi/tagbar'
 
+" xpath search
+Plugin 'actionshrimp/vim-xpath'
+
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -106,7 +110,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-"set textwidth=60
+set textwidth=80
 set clipboard=unnamed
 "activate omnifunc
 set omnifunc=syntaxcomplete#Complete
@@ -120,6 +124,8 @@ nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 " nice mapping for running python code from vim (http://stackoverflow.com/questions/18948491/running-python-code-in-vim)
 "nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
 :map <F9> :exec ':w !python3 %'<cr>
+
+nnoremap <F5> :XPathSearchPrompt
 
 
 "colorscheme molokai 
