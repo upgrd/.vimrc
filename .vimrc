@@ -6,6 +6,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
+"
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "*** PLUGIN section ****
@@ -24,7 +25,7 @@ Plugin 'bling/vim-bufferline'
 "syntastic from https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 "set syntastic to python 3
-let g:syntastic_python_python_exec = '/path/to/python3'
+let g:syntastic_python_python_exec = '/usr/bin/python3'
 
 
 "rdf syntax from https://github.com/niklasl/vim-rdf
@@ -35,7 +36,6 @@ Plugin 'wesQ3/vim-windowswap'
 
 "emmet-like plugin from https://github.com/mattn/emmet-vim
 Plugin 'mattn/emmet-vim'
-
 "fugitive git wrapper
 Plugin 'tpope/vim-fugitive'
 
@@ -90,6 +90,12 @@ Plugin 'majutsushi/tagbar'
 " xpath search
 Plugin 'actionshrimp/vim-xpath'
 
+" css color
+Plugin 'skammer/vim-css-color'
+
+" css syntax
+Plugin 'hail2u/vim-css3-syntax'
+
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -110,8 +116,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-set textwidth=80
+set textwidth=70
 set clipboard=unnamed
+set breakindent
 "activate omnifunc
 set omnifunc=syntaxcomplete#Complete
 
