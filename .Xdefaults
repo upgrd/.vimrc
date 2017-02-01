@@ -3,7 +3,7 @@ URxvt.scrollBar: false
 URxvt.foreground: #d9d9d9
 URxvt.background: #1a1a1a
 URxvt.secondaryScroll: true
-URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=15
+URxvt.font: xft:Liberation Mono:pixelsize=15
 URxvt.perl-ext-common: mark-urls
 URxvt.urlLauncher: firefoxURxvt.tabbed.saveLines: 1000
 URxvt.tabbed.scrollBar: false
@@ -12,9 +12,9 @@ URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 0
 URxvt.tabbed.tab-bg: 1
 URxvt.tabbed.secondaryScroll: true
-URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=15
 URxvt.tabbed.perl-ext-common: mark-urls
-URxvt.tabbed.urlLauncher: firefox
+URxvt.tabbed.urlLauncher: google-chrome 
 
 !themes from http://crunchbang.org/forums/viewtopic.php?id=9935
 
