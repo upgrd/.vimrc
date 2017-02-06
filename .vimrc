@@ -90,11 +90,13 @@ Plugin 'majutsushi/tagbar'
 " xpath search
 Plugin 'actionshrimp/vim-xpath'
 
-" css color
-Plugin 'skammer/vim-css-color'
-
 " css syntax
 Plugin 'hail2u/vim-css3-syntax'
+
+
+Plugin 'Yggdroot/indentLine'
+
+
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
@@ -116,7 +118,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-set textwidth=70
+set textwidth=80
 set clipboard=unnamed
 set breakindent
 "activate omnifunc
@@ -134,6 +136,8 @@ nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 
 nnoremap <F5> :XPathSearchPrompt
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
 
 "colorscheme molokai 
 autocmd VimEnter * colorscheme monokai 
@@ -175,7 +179,7 @@ com! WP call WordProcessorMode()
 "____hybrid numbering mode____ (http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/)
 " *** DEPRECATED *** use RltvNumber instead (= rel + abs numbers!) (http://www.vim.org/scripts/script.php?script_id=2351)
 "set relativenumber AND absolute number!
-autocmd VimEnter * RltvNmbr
+"autocmd VimEnter * RltvNmbr
 " solution for calling Rltv after .vimrc has loaded: http://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
 set number
 
