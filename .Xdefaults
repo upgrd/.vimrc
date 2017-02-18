@@ -16,6 +16,8 @@ URxvt.tabbed.font: xft:Bitstream Vera Sans Mono:pixelsize=15
 URxvt.tabbed.perl-ext-common: mark-urls
 URxvt.tabbed.urlLauncher: google-chrome 
 
+URxvt*cursorBlink: true
+
 !themes from http://crunchbang.org/forums/viewtopic.php?id=9935
 
 ! black + red
