@@ -1,5 +1,3 @@
-
-
 "____vundle section____ 
 
 set nocompatible              " be iMproved, required
@@ -15,6 +13,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'othree/xml.vim'
 Plugin 'scrooloose/nerdtree'
+
+let NERDTreeQuitOnOpen=1
 
 "easymotion from https://github.com/easymotion/vim-easymotion
 Plugin 'easymotion/vim-easymotion'
@@ -95,6 +95,9 @@ Plugin 'hail2u/vim-css3-syntax'
 
 
 Plugin 'Yggdroot/indentLine'
+
+Plugin 'shawncplus/phpcomplete.vim'
+
 
 
 
@@ -181,7 +184,10 @@ com! WP call WordProcessorMode()
 "set relativenumber AND absolute number!
 "autocmd VimEnter * RltvNmbr
 " solution for calling Rltv after .vimrc has loaded: http://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
+
+"autocmd VimEnter * RltvNmbr
 set number
+
 
 "syntax always on
 
