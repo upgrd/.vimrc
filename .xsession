@@ -11,6 +11,8 @@ xrandr --output HDMI1 --mode 1920x1080 --above eDP1
 fi
 
 
+
+
 # *** statbardwm ***
 #(conky | while read LINE; do xsetroot -name "$LINE"; done &)
 

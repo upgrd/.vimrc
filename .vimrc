@@ -1,4 +1,6 @@
 "____vundle section____ 
+"
+"
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -99,8 +101,6 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'shawncplus/phpcomplete.vim'
 
 
-
-
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
@@ -144,6 +144,9 @@ cmap w!! w !sudo tee > /dev/null %
 
 "colorscheme molokai 
 autocmd VimEnter * colorscheme monokai 
+
+" json syntax and linting via js! (http://www.codeography.com/2010/07/13/json-syntax-highlighting-in-vim.html)
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 
 "basic setup for syntastic from https://github.com/vim-syntastic/syntastic#settings

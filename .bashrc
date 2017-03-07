@@ -100,8 +100,6 @@ alias cls='clear'
 alias oxygen='Exec=/bin/sh "/home/upgrd/Oxygen XML Editor 18/oxygen18.0"'
 alias c='xclip'
 alias v='xclip -o'
-alias vievpn='f5fpc -s -t vpn.univie.ac.at:8443 -u a0909268 -d /etc/ssl/certs/
-'
 alias wakeup='sudo etherwake 2c:27:d7:25:5d:dc'
 alias suspend='/usr/sbin/pm-suspend'
 
@@ -129,6 +127,7 @@ if ! shopt -oq posix; then
 fi
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
+PATH=$PATH:/usr/local/bin
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
