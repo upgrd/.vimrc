@@ -4,3 +4,4 @@
 .Xdefaults
 .bashrc
 .tmux.conf
+./i3/*
