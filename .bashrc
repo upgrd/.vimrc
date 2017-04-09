@@ -101,7 +101,10 @@ alias oxygen='Exec=/bin/sh "/home/upgrd/Oxygen XML Editor 18/oxygen18.0"'
 alias c='xclip'
 alias v='xclip -o'
 alias wakeup='sudo etherwake 2c:27:d7:25:5d:dc'
-alias suspend='/usr/sbin/pm-suspend'
+alias suspend='sudo /usr/sbin/pm-suspend'
+alias pipall='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
+alias sd='sudo shutdown now'
+alias ram="egrep --color 'Mem|Cache|Swap' /proc/meminfo"
 
 #upgrd tmux_script (https://github.com/srsudar/tmux-completion)
 source ./tmux-completion/tmux 
