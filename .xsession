@@ -30,4 +30,4 @@ fi
         #sleep 0.5    
     #done
 #done &
-exec i3 
+exec i3
