@@ -1,3 +1,4 @@
+
 "____vundle section____ 
 "
 "
@@ -29,7 +30,6 @@ Plugin 'vim-syntastic/syntastic'
 "set syntastic to python 3
 let g:syntastic_python_python_exec = '/usr/bin/python3'
 
-
 "rdf syntax from https://github.com/niklasl/vim-rdf
 Plugin 'niklasl/vim-rdf'
 
@@ -40,9 +40,6 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'mattn/emmet-vim'
 "fugitive git wrapper
 Plugin 'tpope/vim-fugitive'
-
-"ctrl-p
-Plugin 'kien/ctrlp.vim'
 
 "multi curser from https://github.com/terryma/vim-multiple-cursors
 Plugin 'terryma/vim-multiple-cursors'
@@ -68,7 +65,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 "youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 " *** ultisnips + YCM via supertab! from  http://chauncey.io/ultisnips-youcompleteme-now-if-i-can-just-get-you-two-to-cooperate/
 "Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs (:help ins-completion).
@@ -213,4 +210,3 @@ nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-Enter> o<Esc>k
 nmap <C-S-Enter< O<Esc>j
-
