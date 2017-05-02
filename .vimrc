@@ -75,6 +75,7 @@ Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
 
 "taglist
+"apt-get install exuberant-ctags!
 Plugin 'vim-scripts/taglist.vim'
 
 " nerdcommenter
