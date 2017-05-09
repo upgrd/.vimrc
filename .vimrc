@@ -65,7 +65,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 "youcompleteme from https://valloric.github.io/YouCompleteMe/#ubuntu-linux-x64
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
 " *** ultisnips + YCM via supertab! from  http://chauncey.io/ultisnips-youcompleteme-now-if-i-can-just-get-you-two-to-cooperate/
 "Supertab is a vim plugin which allows you to use <Tab> for all your insert completion needs (:help ins-completion).
