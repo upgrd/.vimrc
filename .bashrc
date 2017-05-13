@@ -108,7 +108,7 @@ alias ram="egrep --color 'Mem|Cache|Swap' /proc/meminfo"
 alias ls="ls -a"
 
 #upgrd tmux_script (https://github.com/srsudar/tmux-completion)
-source ./tmux-completion/tmux 
+#source ./tmux-completion/tmux 
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
