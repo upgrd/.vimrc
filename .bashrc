@@ -106,6 +106,7 @@ alias pipall='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 p
 alias sd='sudo shutdown now'
 alias ram="egrep --color 'Mem|Cache|Swap' /proc/meminfo"
 alias ls="ls -a --color=auto"
+alias tre="tree"
 
 
 #upgrd tmux_script (https://github.com/srsudar/tmux-completion)
