@@ -105,7 +105,8 @@ alias suspend='sudo /usr/sbin/pm-suspend'
 alias pipall='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
 alias sd='sudo shutdown now'
 alias ram="egrep --color 'Mem|Cache|Swap' /proc/meminfo"
-alias ls="ls -a"
+alias ls="ls -a --color=auto"
+
 
 #upgrd tmux_script (https://github.com/srsudar/tmux-completion)
 #source ./tmux-completion/tmux 
