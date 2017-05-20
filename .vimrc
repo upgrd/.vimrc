@@ -84,7 +84,7 @@ Plugin 'scrooloose/nerdcommenter'
 " fzf for vim (fuck you ctrl-p! :D)
 Plugin 'https://github.com/junegunn/fzf'
 
-" tagbar; requires exuberant ctags! (av. in linux repos)
+" agbar; requires exuberant ctags! (av. in linux repos)
 Plugin 'majutsushi/tagbar'
 
 " xpath search
