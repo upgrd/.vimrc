@@ -156,7 +156,7 @@ bar {
 
 ### my bindings ###
 # bind lock
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec i3lock 
 # second monitor always on ws 9
 workspace 9 output HDMI1
 # handle feh bg (not with xsession anymore!)
