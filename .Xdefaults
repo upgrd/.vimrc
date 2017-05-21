@@ -56,3 +56,7 @@ URxvt.perl-ext-common: ...,tabbed,...
 
 (urxvt.perl-ext-common: mark-urls
 rxvt.urlLauncher: firefox)
+
+
+urxvt*transparent: true
+urxvt*shading: 50
