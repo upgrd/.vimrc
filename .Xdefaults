@@ -59,4 +59,4 @@ rxvt.urlLauncher: firefox)
 
 
 urxvt*transparent: true
-urxvt*shading: 50
+urxvt*shading: 70
