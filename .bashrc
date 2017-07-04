@@ -134,6 +134,7 @@ fi
 export GOPATH=$HOME/gopath
 export PATH=$GOPATH:$GOPATH/bin:$PATH
 PATH=$PATH:/usr/local/bin
+PATH=$PATH/usr/bin/java
 
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
