@@ -17,7 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'othree/xml.vim'
 Plugin 'scrooloose/nerdtree'
 
-let NERDTreeQuitOnOpen=1
+"let NERDTreeQuitOnOpen=1
 
 "easymotion from https://github.com/easymotion/vim-easymotion
 Plugin 'easymotion/vim-easymotion'
@@ -28,7 +28,7 @@ Plugin 'bling/vim-bufferline'
 "syntastic from https://github.com/vim-syntastic/syntastic
 Plugin 'vim-syntastic/syntastic'
 "set syntastic to python 3
-let g:syntastic_python_python_exec = '/usr/bin/python3'
+"let g:syntastic_python_python_exec = '/usr/bin/python3'
 
 "rdf syntax from https://github.com/niklasl/vim-rdf
 Plugin 'niklasl/vim-rdf'
@@ -191,7 +191,6 @@ set number
 
 
 "syntax always on
-
 syntax on
 
 "____enable airline (solution from https://github.com/vim-airline/vim-airline/issues/130)
@@ -211,3 +210,8 @@ nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-Enter> o<Esc>k
 nmap <C-S-Enter< O<Esc>j
+
+" cycle through buffers
+
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>

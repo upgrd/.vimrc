@@ -58,5 +58,5 @@ URxvt.perl-ext-common: ...,tabbed,...
 rxvt.urlLauncher: firefox)
 
 
-urxvt*transparent: true
-urxvt*shading: 70
+!urxvt*transparent: true
+

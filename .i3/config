@@ -167,4 +167,5 @@ exec_always fluxgui
 workspace_layout stacking
 # exit i3 without confirmation dialog
 bindsym $mod+Shift+e exit
-
+# call dvowel.sh
+bindsym $mod+u exec ~/.i3/dvowel.sh
